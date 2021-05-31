@@ -1,0 +1,23 @@
+void main(){
+    int quantidade = 0;
+    int numero = 0;
+    int cont = 1;
+    int maior = 0;
+    
+    printf("Leia a quantidade: ");
+    scanf( "%d", &quantidade );
+    
+    while( cont <= quantidade ){
+        printf("Leia um numero: ");
+        scanf( "%d", &numero );
+        
+        if( numero > maior ){
+            maior = numero;
+        }
+        
+        cont++;
+    }
+    printf("O maior numero lido foi: %d \n", maior);
+
+    return 0;
+}
