@@ -1,5 +1,0 @@
-
-    int quantidade = 0;
-    int numero = 0;
-    int cont = 1;
-    int maior = 0;
